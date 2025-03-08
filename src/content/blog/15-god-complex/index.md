@@ -1,6 +1,6 @@
 ---
-title: "Oh To Be Loved"
-description: "a poem (?) I wrote on a mundane morning"
+title: "God Complex"
+description: ""
 date: "Mar 02 2025"
 ---
 
