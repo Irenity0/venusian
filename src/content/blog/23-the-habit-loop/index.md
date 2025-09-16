@@ -7,7 +7,7 @@ The habit loop explains how habits are formed and sustained. It consists of four
 
 We can divide the habit loop into two main phases: the **problem phase** and the **solution phase**.
 
-## The Problem Phase
+### The Problem Phase
 
 This phase highlights the moment when something feels incomplete or unsatisfying.
 
@@ -16,7 +16,7 @@ This phase highlights the moment when something feels incomplete or unsatisfying
 
 For example, walking into a dark room (cue) makes you want to see (craving).
 
-## The Solution Phase
+### The Solution Phase
 
 This phase is about taking action and gaining satisfaction.
 
@@ -25,7 +25,7 @@ This phase is about taking action and gaining satisfaction.
 
 Continuing the example, turning on the light switch (response) results in a bright room (reward).
 
-## Key Idea
+### Key Idea
 
 The main idea behind the habit loop is that habits exist to solve problems.
 
