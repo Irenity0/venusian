@@ -19,13 +19,13 @@ const work = await Promise.all(
 <PageLayout title={WORK.TITLE} description={WORK.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
-      <div class="animate font-semibold text-black dark:text-white">
+      <div class="animate -mb-5 font-semibold text-black dark:text-white">
         Work
       </div>
       <ul class="flex flex-col space-y-4">
         { 
           work.map(entry => (
-            <li class="animate">
+            <li class="animate py-4">
               <div class="text-sm opacity-75">
                 {dateRange(entry.data.dateStart, entry.data.dateEnd)}
               </div>
