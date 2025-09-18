@@ -1,6 +1,6 @@
 ---
 title : "The Habit Loop"
-description: "The **habit loop** explains how habits are formed and sustained. It consists of four steps: cue, craving, response, and reward."
+description: "The habit loop explains how habits are formed and sustained. It consists of four steps: cue, craving, response, and reward."
 date: "10 Dec, 2024"
 ---
 The habit loop explains how habits are formed and sustained. It consists of four steps: cue, craving, response, and reward. A cue triggers a craving, which motivates a response, and the response delivers a reward. Over time, the reward becomes associated with the cue, making the cycle automatic. This loop continues infinitely, shaping much of our daily behavior.
