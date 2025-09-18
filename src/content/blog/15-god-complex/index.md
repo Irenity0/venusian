@@ -5,7 +5,7 @@ date: "Dec 19 2024"
 ---
 
 **Core Idea**: It's an exaggerated sense of self-worth where a person believes they are omnipotent, morally perfect, or intellectually superior. A person with a god complex may act as though they are all-knowing, omnipotent, or morally perfect, often disregarding others' opinions, boundaries, or feelings. 
-- It's not an official diagnosis in psychology but rather a term that can align with traits seen in [[narcissistic personality disorder (NPD)]] or similar conditions.
+- It's not an official diagnosis in psychology but rather a term that can align with traits seen in Narcissistic Personality Disorder (NPD) or similar conditions.
 
 ## Key Traits:
 

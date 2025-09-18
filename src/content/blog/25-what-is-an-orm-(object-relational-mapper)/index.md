@@ -4,7 +4,7 @@ description : "An ORM (Object-Relational Mapper) is a tool and programming techn
 date : "18 Sep, 2025"
 ---
 
-An **ORM (Object-Relational Mapper)** is a tool and programming technique that **connects object-oriented programming ([[OOP]]) languages with relational databases**. Instead of writing raw SQL queries, developers can use objects and classes from their application to interact with the database. The ORM automatically translates these operations into SQL and then converts the database results back into objects.
+An **ORM (Object-Relational Mapper)** is a tool and programming technique that **connects object-oriented programming (OOP) languages with relational databases**. Instead of writing raw SQL queries, developers can use objects and classes from their application to interact with the database. The ORM automatically translates these operations into SQL and then converts the database results back into objects.
 
 In short, an ORM acts as a **bridge between your code and the database**, making development faster, cleaner, and less error-prone.
 

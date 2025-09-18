@@ -3,7 +3,7 @@ title : "Prisma ORM Explained: Advantages, Workflow, and Examples"
 description : "Prisma is a modern ORM (Object Relational Mapper) for Node.js and TypeScript applications. It helps developers interact with databases using clean and type-safe code instead of writing raw SQL queries. Prisma supports databases like PostgreSQL, MySQL, SQLite, SQL Server, and MongoDB."
 date : "18 Sep, 2025"
 ---
-**Prisma** is a modern **[[ORM (Object Relational Mapper)]]** for **Node.js and TypeScript** applications. It helps developers interact with databases using clean and type-safe code instead of writing raw SQL queries. Prisma supports databases like PostgreSQL, MySQL, SQLite, SQL Server, and MongoDB.
+**Prisma** is a modern **[ORM (Object Relational Mapper)](https://venusiam.vercel.app/blog/25-what-is-an-orm-object-relational-mapper)**  for **Node.js and TypeScript** applications. It helps developers interact with databases using clean and type-safe code instead of writing raw SQL queries. Prisma supports databases like PostgreSQL, MySQL, SQLite, SQL Server, and MongoDB.
 
 
 
