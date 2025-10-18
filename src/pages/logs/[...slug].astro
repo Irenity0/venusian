@@ -1,0 +1,50 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import { readingTime } from "@lib/utils";
+import BackToPrev from "@components/BackToPrev.astro";
+
+export async function getStaticPaths() {
+  const logs = (await getCollection("logs"))
+    .filter((post) => !post.data.draft)
+    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  return logs.map((log) => ({
+    params: { slug: log.slug },
+    props: log,
+  }));
+}
+type Props = CollectionEntry<"logs">;
+
+const log = Astro.props;
+const { Content } = await log.render();
+---
+
+<PageLayout title={log.data.title} description={log.data.description}>
+  <Container>
+    <div class="animate">
+      <BackToPrev href="/logs"> Back to logs </BackToPrev>
+    </div>
+    <div class="space-y-1 my-10">
+      <div class="animate flex items-center gap-1.5">
+        <div class="font-base text-sm">
+          {readingTime(log.body)}
+        </div>
+      </div>
+      <div class="animate text-2xl font-semibold text-black dark:text-white">
+        {log.data.date}
+      </div>
+    </div>
+    <article class="animate">
+      <Content />
+    </article>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll("article a[href^='http']").forEach((link) => {
+          link.setAttribute("target", "_blank");
+          link.setAttribute("rel", "noopener noreferrer");
+        });
+      });
+    </script>
+  </Container>
+</PageLayout>

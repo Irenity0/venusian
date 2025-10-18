@@ -10,10 +10,10 @@ const { entry } = Astro.props;
 // If it's from "logs", derive a readable date title from the slug or filename
 let title = entry.data.title;
 if (entry.collection === "logs") {
-  // Example: "1-18-10-25" → "2025-10-18"
-  const parts = entry.slug.split("-").reverse(); // [25, 10, 18, 1]
+
+  const parts = entry.slug.split("-").reverse();
   const [year, month, day] = parts.map(p => p.padStart(2, "0"));
-  title = `20${year}/${month}/${day}`; // adjust this pattern if needed
+  title = `${day}/${month}/${year}`; 
 }
 ---
 
