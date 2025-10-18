@@ -20,7 +20,7 @@ const log = Astro.props;
 const { Content } = await log.render();
 ---
 
-<PageLayout title={log.data.title} description={log.data.description}>
+<PageLayout title={log.data.date} description={log.data.description}>
   <Container>
     <div class="animate">
       <BackToPrev href="/logs"> Back to logs </BackToPrev>
