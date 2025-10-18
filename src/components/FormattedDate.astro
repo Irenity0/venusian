@@ -4,14 +4,7 @@ interface Props {
 }
 
 const { date } = Astro.props;
+const formatted = `${date.getDate().toString().padStart(2, "0")}/${(date.getMonth()+1).toString().padStart(2, "0")}/${date.getFullYear()}`;
 ---
 
-<time datetime={date.toISOString()}>
-  {
-    date.toLocaleDateString("en-us", {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-    })
-  }
-</time>
+<time datetime={date.toISOString()}>{formatted}</time>
