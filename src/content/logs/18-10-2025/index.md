@@ -2,4 +2,17 @@
 date : "18/10/2025"
 ---
 
-Do culpa dolore anim quis. Commodo minim minim consequat ea sunt eu veniam. Ex consectetur fugiat consectetur ipsum id magna veniam nulla enim voluptate nostrud. Labore laborum labore dolor consectetur do adipisicing deserunt. Aute excepteur in ea do voluptate pariatur sit nulla. Duis ullamco ad nulla sint voluptate consequat et qui laboris. Occaecat proident tempor ea quis aliqua.
+- [ ] Phitron 
+    - [ ] Modules
+    - [ ] Optional Tasks
+    - [ ] In-depth notes
+- [ ] Group Monitoring : 9:30am-12pm
+- [ ] Support Session : Night
+- [ ] NextJS portfolio assignment  
+    - [ ] client
+    - [ ] server
+- [x] Add Logs feature to Venusian
+    - [x] index
+    - [x] content
+    - [x] slug
+    - [x] metadata
