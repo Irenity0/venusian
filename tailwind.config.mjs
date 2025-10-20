@@ -10,7 +10,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
-        serif: ["Lora", ...defaultTheme.fontFamily.serif],
+        mono: ["jetBrains Mono", ...defaultTheme.fontFamily.mono]
       },
     },
   },

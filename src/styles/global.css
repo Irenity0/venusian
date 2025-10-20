@@ -13,11 +13,12 @@ html.dark {
 
 html,
 body {
+  @apply font-mono;
   @apply size-full;
 }
 
 body {
-  @apply font-sans antialiased;
+  @apply antialiased;
   @apply flex flex-col;
   @apply bg-stone-100 dark:bg-[#11110e];
   @apply text-black/50 dark:text-white/75;
@@ -39,7 +40,7 @@ footer {
 
 article {
   @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
-  @apply prose-headings:font-semibold prose-p:font-serif;
+  @apply prose-headings:font-semibold prose-p:font-mono;
   @apply prose-headings:text-black prose-headings:dark:text-white;
 }
 

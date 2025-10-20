@@ -15,8 +15,9 @@ module.exports = {
   },
   rules: {
     semi: ["error", "always"],
-    quotes: ["error", "double", { "allowTemplateLiterals": true }],
+    quotes: ["error", "double", { allowTemplateLiterals: true }],
     "@typescript-eslint/triple-slash-reference": "off",
+    "@typescript-eslint/no-explicit-any": "off", // <-- Disable 'any' rule
   },
   overrides: [
     {
