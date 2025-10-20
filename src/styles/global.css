@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "jetMono";
+  src: url("/public/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  font-weight: 400; /* adjust if needed */
+  font-style: normal; /* adjust if needed */
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +21,7 @@ html.dark {
 
 html,
 body {
-  @apply font-mono;
+  @apply font-jetMono;
   @apply size-full;
 }
 
