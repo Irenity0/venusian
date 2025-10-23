@@ -43,7 +43,7 @@ const work = await Promise.all(
   description="A space where I share my writing, projects, and thoughts."
 >
   <Container>
-    <div class="flex items-center gap-6">
+    <div class="lg:flex items-center gap-6">
       <div class="w-4/5">
         <img
           class="animate border border-[#eedbd640] p-2 border-dashed w-32 h-32 rounded-full mb-4"
@@ -65,7 +65,32 @@ const work = await Promise.all(
       </div>
     </div>
     <div class="space-y-16">
-      <section></section>
+      <section>
+        <h5 class="font-semibold text-black dark:text-white mb-4">My Skills</h5>
+        <ul class="flex flex-wrap gap-3">
+          {
+            [
+              "React",
+              "JavaScript",
+              "TypeScript",
+              "Supabase",
+              "Firebase",
+              "Node.js",
+              "MongoDB",
+              "Express",
+              "Next.js",
+              "Astro",
+            ].map((skill) => (
+              <li
+                class="animate border border-[#eedbd640] dark:border-[#ffffff30] rounded-md px-3 py-1 text-sm
+               text-black dark:text-white bg-[#f8f8f8] dark:bg-[#0c0c0c]"
+              >
+                {skill}
+              </li>
+            ))
+          }
+        </ul>
+      </section>
 
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
