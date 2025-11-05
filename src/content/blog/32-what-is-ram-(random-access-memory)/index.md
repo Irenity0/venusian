@@ -1,10 +1,8 @@
 ---
 title : "What is RAM? (Random Access Memory)"
 description : "RAM (Random Access Memory) is a type of temporary computer memory that stores data the CPU (Central Processing Unit) is currently using or processing. It’s called random access because the CPU can access any memory cell directly instead of going through data in sequence, like in a hard drive."
-date : "21 Oct, 2025"
+date : "04 Nov, 2025"
 ---
-### What is RAM?
-
 **RAM (Random Access Memory)** is a type of **temporary computer memory** that stores data the CPU (Central Processing Unit) is currently using or processing. It’s called _random access_ because the CPU can **access any memory cell directly** instead of going through data in sequence, like in a hard drive.
 
 RAM is **volatile**, meaning all data is erased when the device is turned off. Its main purpose is to provide **fast, temporary storage** so the CPU doesn’t have to constantly read from the slower permanent storage (like an HDD or SSD).
