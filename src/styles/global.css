@@ -26,16 +26,15 @@ body {
 }
 
 body {
-  @apply antialiased;
   @apply flex flex-col;
-  @apply bg-stone-100 dark:bg-black/80;
-  @apply text-black dark:text-white;
+  @apply bg-stone-100 dark:bg-stone-900;
+  @apply text-black/50 dark:text-white/75;
 }
 
 header {
   @apply fixed top-0 left-0 right-0 z-50 py-5;
-  @apply bg-stone-200/50 dark:bg-black/40;
-  @apply backdrop-blur-sm;
+  @apply bg-stone-100/75 dark:bg-stone-900/25;
+  @apply backdrop-blur-sm saturate-200;
 }
 
 main {
@@ -48,7 +47,7 @@ footer {
 
 article {
   @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
-  @apply prose-headings:font-semibold prose-p:font-jetMono;
+  @apply prose-headings:font-semibold;
   @apply prose-headings:text-black prose-headings:dark:text-white;
 }
 
