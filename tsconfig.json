@@ -5,8 +5,13 @@
     "baseUrl": ".",
     "ignoreDeprecations": "6.0",
     "paths": {
-      "@*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@layouts/*": ["./src/layouts/*"],
+      "@types": ["./src/types/index.ts"],
+      "@lib/*": ["./src/lib/*"],
+      "@consts": ["./src/consts.ts"]
     },
-    "noImplicitAny": false,
-  },
+    "noImplicitAny": false
+  }
 }
