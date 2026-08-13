@@ -8,8 +8,8 @@
       "@/*": ["./src/*"],
       "@components/*": ["./src/components/*"],
       "@layouts/*": ["./src/layouts/*"],
-      "@types": ["./src/types/index.ts"],
       "@lib/*": ["./src/lib/*"],
+      "@types": ["./src/types.ts"],
       "@consts": ["./src/consts.ts"]
     },
     "noImplicitAny": false
