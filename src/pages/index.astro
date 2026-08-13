@@ -66,10 +66,10 @@ const work = await Promise.all(
     </div>
     <div class="space-y-16">
       <section>
-        <h5 class="font-semibold text-black dark:text-white/90 mb-4">
+        <h5 class="font-semibold text-black dark:text-white/90 my-4">
           My Skills
         </h5>
-        <ul class="flex flex-wrap gap-3">
+        <ul class="flex flex-wrap text-cyan-700 gap-3">
           {
             [
               "JavaScript",
@@ -85,7 +85,7 @@ const work = await Promise.all(
             ].map((skill) => (
               <li
                 class="animate border border-[#eedbd640] dark:border-black/20 rounded-md px-3 py-1 text-sm
-               text-black dark:text-white/80 bg-black/30 dark:bg-black/15"
+               text-black dark:text-white/70 bg-black/30 dark:bg-black/15"
               >
                 {skill}
               </li>
@@ -96,7 +96,7 @@ const work = await Promise.all(
 
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-semibold text-black dark:text-white">
+          <h5 class="font-semibold text-black dark:text-white/90">
             Recent Projects
           </h5>
           <Link href="/projects"> See all projects </Link>
@@ -114,7 +114,7 @@ const work = await Promise.all(
 
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-semibold text-black dark:text-white">
+          <h5 class="font-semibold text-black dark:text-white/90">
             Work Experience
           </h5>
           <Link href="/work"> See all work </Link>
@@ -126,7 +126,7 @@ const work = await Promise.all(
                 <div class="text-sm opacity-75">
                   {dateRange(entry.data.dateStart, entry.data.dateEnd)}
                 </div>
-                <div class="font-semibold text-black dark:text-white">
+                <div class="font-semibold text-black dark:text-white/90">
                   {entry.data.company}
                 </div>
                 <div class="text-sm opacity-75">{entry.data.role}</div>
@@ -141,7 +141,7 @@ const work = await Promise.all(
 
       <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-semibold text-black dark:text-white">Latest Posts</h5>
+          <h5 class="font-semibold text-black dark:text-white/90">Latest Posts</h5>
           <Link href="/blog"> See all posts </Link>
         </div>
         <ul class="flex flex-col gap-4">
@@ -156,7 +156,7 @@ const work = await Promise.all(
       </section>
 
       <section class="animate space-y-4">
-        <h5 class="font-semibold text-black dark:text-white">Let's Connect</h5>
+        <h5 class="font-semibold text-black dark:text-white/90">Let's Connect</h5>
         <article>
           <p>
             If you want to get in touch, feel free to reach out on social media

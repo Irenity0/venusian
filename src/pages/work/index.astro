@@ -19,7 +19,7 @@ const work = await Promise.all(
 <PageLayout title={WORK.TITLE} description={WORK.DESCRIPTION}>
   <Container>
     <div class="space-y-10">
-      <div class="animate -mb-5 font-semibold text-black dark:text-white">
+      <div class="animate -mb-5 font-semibold text-black dark:text-white/90">
         Work
       </div>
       <ul class="flex flex-col space-y-4">
@@ -29,7 +29,7 @@ const work = await Promise.all(
               <div class="text-sm opacity-75">
                 {dateRange(entry.data.dateStart, entry.data.dateEnd)}
               </div>
-              <div class="font-semibold text-black dark:text-white">
+              <div class="font-semibold text-black dark:text-white/90">
                 {entry.data.company}
               </div>
               <div class="text-sm opacity-75">
