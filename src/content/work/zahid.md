@@ -1,6 +1,6 @@
 ---
 company: "Zahid"
 role: "Content Manager"
-dateStart: "2023"
+dateStart: "2024"
 dateEnd: "2025"
 ---
